@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Nature Website - CodewithFarman</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="logo">
+            Digital<span class="nur">Nursery</span>
+        </div>
+
+        <ul class="nav-list">
+            <li><a href="#"><span id="navhome">Home</span></a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+
+    <!--HOME-->
+
+    <div class="Home">
+
+        <div class="intro">
+            <h1  >Life with <span class="nur">Nature</span> <br> is very Fun and <br><span class="nur">Beautiful</span>
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Vero recusandae nulla eum pariatur vitae
+                <br> quasi obcaecati eius accusamus possimus et.
+            </p>
+            <button class="btn one" ><a href="#testimonails">Start exploring</a></button>
+            <button class="btn two" ><a href="#frame">Watch Video</a></button>
+        </div>
+
+        <div class="bg">
+            <img src="./Assets/hero-bg.jpg" alt="" width="380">
+        </div>
+    </div>
+
+    <!--Testimonails-->
+    <div class="four" id="testimonails">
+
+        <div class="box">
+
+            <h1 class="boxh1">50</h1>
+            <p class="boxp">Number of Lenders</p>
+        </div>
+        <div class="box">
+            <h1 class="boxh1">100+</h1>
+            <p class="boxp">Product Sales</p>
+        </div>
+        <div class="box">
+            <h1 class="boxh1">25</h1>
+            <p class="boxp">Live Loans</p>
+        </div>
+        <div class="box">
+            <h1 class="boxh1">12</h1>
+            <p class="boxp">Live Transactions</p>
+        </div>
+
+
+    </div>
+
+    <!--About-->
+
+    <div class="about" id="about">
+        <div class="aboutimg"><img src="./Assets/about-bg.jpg" alt="" width="300"></div>
+
+        <div class="abouttxt">
+            <h2>We Provide the best and very <br> comfortable farming for you</h2>
+            <h5>Very easy and fun gardening</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eaque provident!
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+
+            <h5>Very easy and fun gardening</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eaque provident! <br>Lorem ipsum dolor
+                sit amet.</p>
+
+            <h5>Very easy and fun gardening</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eaque provident!
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+
+            <button class="btn two aboutbtn"><a href="">Read More</a></button>
+        </div>
+    </div>
+
+    <!--Gallery-->
+
+    <div class="gallery" id="projects">
+        <div class="headgal">
+            <h6>OUR GALLERY</h6>
+            <h3>Loving the ambiance <br> of Nature</h3>
+        </div>
+
+        <div class="gallerytwo">
+            <div class="container">
+                <div class="items item1"></div>
+                <div class="items item2"></div>
+                <div class="items item3"></div>
+                <div class="items item4"></div>
+                <div class="items item5"></div>
+                <div class="items item6"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Iframe-->
+
+    <div class="iframe">
+        <div class="headframe">
+            <h2>Our Methods can be applied to <br> any projects</h2>
+            <p id="framep">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet facilis <br>voluptatum
+                veritatis recusandae molestiae enim praesentium. Fugit, non eveniet.</p>
+            <div class="frame" id="frame">
+                <video
+                    src="./Assets/ALPS _ DOLOMITES (Drone   Timelapse) Heavenly Nature Relaxation™ 5 Minute Short Film in 4K UHD(720P_HD).mp4"
+                    controls id="video"></video>
+            </div>
+        </div>
+
+        <!--Footer-->
+
+        <!--Contact-->
+
+        <section id="contact">
+            <div class="contact-main">
+                <div class="content">
+                    <div class="left-side">
+                        <div class="address details">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="topic">Address</div>
+                            <div class="text-one">Lorem ipsum dolor sit amet.</div>
+                            <div class="text-two">Lorem ipsum dolor sit.</div>
+                        </div>
+                        <div class="phone details">
+                            <i class="fas fa-phone-alt"></i>
+                            <div class="topic">Phone</div>
+                            <div class="text-one">+91-1234567890</div>
+                            <div class="text-two">+91-0987654321</div>
+                        </div>
+                        <div class="email details">
+                            <i class="fas fa-envelope"></i>
+                            <div class="topic">Email</div>
+                            <div class="text-one">DigitalNature@gmail.com</div>
+                            <div class="text-two">NatureDigital@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="topic-text">Contact Us</div>
+                        <p>If you have any work from me or any types of quries related to my tutorial, you can send me
+                            message from here. It's my pleasure to help you.</p>
+                        <form action="#">
+                            <div class="input-box">
+                                <input type="text" placeholder="Enter your name">
+                            </div>
+                            <div class="input-box">
+                                <input type="text" placeholder="Enter your email">
+                            </div>
+                            <div class="input-box message-box">
+                                <input type="text" placeholder="Send message">
+                            </div>
+                            <div class="button">
+                                <input type="button" value="Send Now">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Footer-->
+        <footer>
+            <p>© 2024 CodewithFarman Private Limited, All Rights Reserved.</p>
+
+        </footer>
+        <script>
+            function toggleMenu() {
+                var navList = document.querySelector('.nav-list');
+                navList.classList.toggle('show');
+            }
+        </script>
+</body>
+
+</html>
